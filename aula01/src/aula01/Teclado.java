@@ -9,7 +9,7 @@ public class Teclado {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Digite o seu nome: ");
 		String nome = scanner.nextLine();
-		System.out.print("Digite o seu nome: ");
+		System.out.print("Digite a sua idade: ");
 		int idade = scanner.nextInt();
 		System.out.println("Nome: " + nome);
 		System.out.println("Idade: " + idade);
